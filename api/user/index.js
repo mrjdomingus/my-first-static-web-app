@@ -6,7 +6,7 @@ module.exports = async function (context, req) {
     context.res = {
       body: {
         clientPrincipal: JSON.parse(decoded),
-        headers: JSON.stringify(req.headers)
+        headers: req.headers
       }
     };
   };
