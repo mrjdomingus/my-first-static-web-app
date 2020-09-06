@@ -6,7 +6,7 @@
     },
     {
       "route": "/login",
-      "serve": "/.auth/login"
+      "serve": "/.auth/login/aad"
     },
     {
       "route": "/*",
