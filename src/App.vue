@@ -1,7 +1,8 @@
 <template>
 <div>
   <div>Hello {{ value }}</div>
-  <a href="/.auth/login/aad?post_login_redirect_uri=/api/echo">Log in</a>
+  <a href="/login/aad">Log in</a>
+  <a href="/logout">Log out</a>
   </div>
 </template>
 
