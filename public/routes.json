@@ -1,6 +1,14 @@
 {
   "routes": [
     {
+      "route": "/logout",
+      "serve": "/.auth/logout"
+    },
+    {
+      "route": "/login",
+      "serve": "/.auth/login"
+    },
+    {
       "route": "/*",
       "serve": "/index.html",
       "statusCode": 200
